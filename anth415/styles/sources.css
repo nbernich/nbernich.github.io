@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+#sources-page .bib-entry p {
+    pointer-events: none;
+}
+
 /* Extras */
 .alert {
     position: absolute;

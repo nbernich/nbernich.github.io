@@ -20,8 +20,8 @@ function sendPopUp(message, target, offsetX, offsetY) {
     const alertBox = document.createElement("div");
     alertBox.setAttribute("class", "alert");
     alertBox.innerText = message;
-    alertBox.style.left = target.offsetLeft + offsetX + 10 + "px";
-    alertBox.style.top = target.offsetTop + offsetY + 10 + "px";
+    alertBox.style.left = target.offsetLeft + offsetX + 15 + "px";
+    alertBox.style.top = target.offsetTop + offsetY + 15 + "px";
     target.appendChild(alertBox);
     setTimeout(() => {
         alertBox.parentElement.removeChild(alertBox);
