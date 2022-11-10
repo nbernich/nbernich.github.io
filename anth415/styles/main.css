@@ -1,0 +1,71 @@
+/* Font Imports and Animations */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
+@keyframes fadeOut {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    } 
+ } 
+
+/* Colors */
+:root {
+    --background: #29292a;
+    --background-light: #3b3b3b;
+    --background-lightest: #505050;
+    --background-select: #324151;
+    --foreground: #f8f8f8;;
+    --accent-color: rgba(75, 191, 223, 0.875);
+    --highlight-color: rgba(207, 207, 207, 0.292);
+}
+
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+/* Text Highlight Color */
+::selection {
+    background-color: var(--highlight-color);
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--background-lightest);
+    text-align: center;
+    width: 30vw;
+    padding: .5rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+}
+
+footer #footer-text {
+    font-size: 1rem;
+    margin: 1;
+}
+
+footer button {
+    background-color: var(--accent-color);
+    color: var(--foreground);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--font);
+    padding: .5rem 2.5rem;
+}
+
+footer button:hover {
+    opacity: 80%;
+    transform: translateY(-.05rem);
+}

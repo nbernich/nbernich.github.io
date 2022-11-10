@@ -1,0 +1,28 @@
+/* Main Page Styling */
+#main-page {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-page h1 {
+    font-size: 3rem;
+    color: var(--accent-color);
+}
+
+#main-page h2 {
+    font-size: 2rem;
+}
+
+#main-page section {
+    background-color: var(--background-light);
+    padding: 0rem 2rem 2rem 4rem;
+    width: 75vw;
+    margin-bottom: 2rem;
+}
+
+#main-page img {
+    max-height: 40rem;
+    max-width: 40rem;
+}

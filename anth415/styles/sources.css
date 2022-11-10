@@ -1,0 +1,43 @@
+/* Bibliography Page Styling */
+#sources-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sources-page h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--accent-color);
+    font-weight: 700;
+}
+
+#sources-page #bib-entries {
+    width: 75vw;
+}
+
+#sources-page .bib-entry {
+    text-align: center;
+    background-color: var(--background-light);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#sources-page .bib-entry:hover {
+    background-color: var(--background-select);
+    cursor: pointer;
+}
+
+/* Extras */
+.alert {
+    position: absolute;
+    font-size: 1rem;
+    background-color: var(--accent-color);
+    border-radius: 1rem;
+    width: fit-content;
+    padding: .5rem;
+    animation: fadeOut 1s linear .5s;
+    pointer-events: none;
+}
