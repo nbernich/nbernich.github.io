@@ -34,38 +34,46 @@ body {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
+p {
+    line-height: 1.75;
+}
+
 /* Text Highlight Color */
 ::selection {
     background-color: var(--highlight-color);
 }
 
-/* Footer Styling */
-footer {
-    background-color: var(--background-lightest);
-    text-align: center;
-    width: 30vw;
-    padding: .5rem 1rem 1rem 1rem;
-    border-radius: 1rem;
-    position: fixed;
-    bottom: 0;
+/* NavBar Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--background-light);
+    color: #ffffff;
 }
 
-footer #footer-text {
-    font-size: 1rem;
-    margin: 1;
+nav > div {
+    padding: .8rem 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-footer button {
-    background-color: var(--accent-color);
-    color: var(--foreground);
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: var(--font);
-    padding: .5rem 2.5rem;
+nav .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 }
 
-footer button:hover {
-    opacity: 80%;
-    transform: translateY(-.05rem);
+nav .nav-title {
+    user-select: none;
+}
+
+nav a, nav a:visited, nav .nav-title {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: .9rem;
+    padding: .5rem;
 }

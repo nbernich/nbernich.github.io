@@ -18,19 +18,27 @@
 }
 
 #sources-page .bib-entry {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#sources-page .source-content {
     text-align: center;
     background-color: var(--background-light);
     padding: 1rem;
     border-radius: 1rem;
     margin: 1rem;
+    width: 100%;
 }
 
-#sources-page .bib-entry:hover {
+#sources-page .source-content:hover {
     background-color: var(--background-select);
     cursor: pointer;
 }
 
-#sources-page .bib-entry p {
+#sources-page .source-content p {
     pointer-events: none;
 }
 

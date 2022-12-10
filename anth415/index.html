@@ -5,31 +5,188 @@
         <title>ANTH 415 Final Project</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
         <link rel="stylesheet" href="./styles/main.css"/>
-        <link rel="stylesheet" href="./styles/index.css"/>
+        <link rel="stylesheet" href="./styles/home.css"/>
+        <script type="text/javascript" src="./scripts/home.js" defer></script>
     </head>
     <body>
-        <div id="main-page">
+
+        <!-- Navigation Menu -->
+        <nav>
+            <div class="nav-menu">
+                <div class="nav-menu-item">
+                    <a href="/anth415/index.html">Home</a>
+                </div>
+                <div class="nav-menu-item">
+                    <a href="/anth415/sources.html">Sources</a>
+                </div>
+            </div>
+            <div class="nav-title">
+                <span>ANTH 415 Final Project</span>
+            </div>
+        </nav>
+
+        <noscript>
+            <div class="noscript">
+                <h1>[WARNING] JavaScript is disabled!</h1>
+                <p>
+                    This website requires JavaScript to function properly.
+                    Please enable JavaScript in your browser settings and reload the page.
+                </p>
+            </div>
+        </noscript>
+
+        <!-- Main Page -->
+        <div id="home-page">
+
             <h1>The Fascinating Discovery of <em>Homo Naledi</em></h1>
+
             <section>
-                <h2>Introduction</h2>
+                <h2>Discovery</h2>
+                <img alt="Homo Naledi skeletal specimens found in the Dinaledi Chamber (Berger 2015)" class="float-right" draggable="false" src="https://iiif.elifesciences.org/lax/09560%2Felife-09560-fig1-v1.tif/full/,1500/0/default.jpg" />
                 <p>
-                    An introduction to the discovery of Homo Naledi
+                    In October 2013, explorers first unearthed specimens of the now-extinct
+                    hominid species <em>Homo Naledi</em> from the Rising Star Cave System in South Africa.
+                    Since then, this discovery has yielded the largest
+                    collection of hominind fossils ever found in Africa representing a single species.
+                    <a class="source-link" href="/anth415/sources.html#dirks2015">[2]</a>
+                    <br/><br/>
+                    Two field expeditions occurred to explore the site where <em>Homo Naledi</em> was found, one
+                    in November 2013 and the other in March 2014. During these trips, the team uncovered a 
+                    small supply of faunal bones, along with a great number of human remains. Researchers place
+                    the total number of hominin specimens uncovered at 1550, representing at least 15
+                    different individuals of the <em>Homo Naledi</em> species.
+                    <a class="source-link" href="/anth415/sources.html#berger2015">[1]</a>
+
                 </p>
-                <img alt="Skull fragments unearthed in the Homo Naledi discovery (Hawks et al. 2017)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Elife-24232-fig5-v1_LES1_cranium_%28Homo_naledi%29.jpg/800px-Elife-24232-fig5-v1_LES1_cranium_%28Homo_naledi%29.jpg"/>
             </section>
+
             <section>
-                <h2>Comparison</h2>
-                <p>
-                    The final version of this page will include an interactive diagram of different <em>Homo</em>
-                    species, including <em>Homo nadeli</em>. The image below will provide reference for this diagram
-                    (the final version will just be animated)
+                <h2>Location</h2>
+                <iframe class="float-left" width="350" height="350" src="https://maps.google.com/maps?q=-26.020278,%2027.711944&t=k&z=7&ie=UTF8&iwloc=&output=embed"></iframe>
+                <p class="align-left">
+                    The Rising Star Cave System is located in
+                    Cradle of Humankind, South Africa. The site is split into two chambers: the Dinaledi chamber 
+                    and the Lesedi chamber. Both are located approximately 30 meters below ground.
+                    <a class="source-link" href="/anth415/sources.html#berger2015">[1]</a>
+                    <br/><br/>
+                    The Lesedi chamber is named for the word "light" in Setswana, a local language.
+                    <a class="source-link" href="/anth415/sources.html#hawks2017">[3]</a>
+                    Meanwhile, Dinaledi roughly translates to "Chamber of Stars" in
+                    the Sotho language.
+                    <a class="source-link" href="/anth415/sources.html#dirks2015">[2]</a>
+                    <em>Homo Naledi</em> follows this linguistic pattern. The word "naledi" means
+                    "star" in Sotho, which is a reference to the Dinaledi chamber where the first specimens
+                    were discovered.
+                    <a class="source-link" href="/anth415/sources.html#berger2015">[1]</a>
                 </p>
-                <img alt="Comparison of Homo species (Stringer 2015)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Comparison_of_skull_features_of_Homo_naledi_and_other_early_human_species.jpg/1920px-Comparison_of_skull_features_of_Homo_naledi_and_other_early_human_species.jpg"/>
             </section>
-            <footer>
-                <p id="footer-text">Created by Nathaniel Bernich for ANTH 415</p>
-                <a href="./sources.html"><button>View Citations</button></a>
-            </footer>
+
+            <section>
+                <h2>Quick Figures</h2>
+                <div class="figure-container">
+                    <div class="figure">
+                        <div class="figure-number">2013</div>
+                        <div class="figure-description">Year <em>Homo Naledi</em> was first discovered in South Africa</div>
+                    </div>
+                    <div class="figure">
+                        <div class="figure-number">1550</div>
+                        <div class="figure-description">Number of hominin specimens uncovered in the Rising Star cave system</div>
+                    </div>
+                    <div class="figure">
+                        <div class="figure-number">15</div>
+                        <div class="figure-description">Lowest number of individuals thought to be represented by the specimens</div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Skull Features</h2>
+                <iframe class="float-right" title="Homo Naledi Skull Model" src="https://sketchfab.com/models/f8978bc2fd594c40902148e008981465/embed" frameborder="0"></iframe>
+                <p class="align-left">
+                    The skull features of <em>Homo Naledi</em> are one of the most fascinating takeaways from
+                    this discovery.
+                    When skulls of this hominin were uncovered, they were suprisingly well-preserved
+                    by the conditions of the cave. Researchers were able to re-fit nearly all of the 
+                    skull components.
+                    <a class="source-link" href="/anth415/sources.html#hawks2017">[3]</a>
+                    </br></br>
+                    Shown here is an interactive model of a <em>Homo Naledi</em> skull.
+                    Researchers note that this skull is has rather primative dentition
+                    and unique cranial morphology compared to both other hominins and
+                    anatomically modern humans.
+                    <a class="source-link" href="/anth415/sources.html#berger2015">[1]</a>
+                </p>
+            </section>
+
+            <section>
+                <h2>Skull Comparison</h2>
+                <div class="skull-comparison">
+                    <img class="skull" alt="H. Erectus skull (Hawks 2017)" draggable="false" src="/anth415/assets/h_erectus.png"
+                        data-title="Homo Erectus"
+                        data-caption="Homo Erectus has a low and thick skull, which contrasts greatly with the high and thin skull of Homo Naledi. While Homo Erectus has large teeth and varying molar gradient, Homo Naledi has small teeth and a dental trend where molars increase towards the back. Both, however, shared a flexed occipital and transverse torus (features near the back of the skull)."
+                    />
+                    <img class="skull" alt="H. Habilis skull (Hawks 2017)" draggable="false" src="/anth415/assets/h_habilis.png"
+                        data-title="Homo Habilis"
+                        data-caption="Homo Habilis has a high and thin skull, just like Homo Naledi. This species also shares the dental feature of molars increasing towards the back of the jaw. Unlike Homo Naledi, however, it has large teeth, as well as a rounded occipital and no transverse torus (features near the back of the skull)."
+                    />
+                    <img class="skull" alt="H. Rudolphensis skull (Hawks 2017)" draggable="false" src="/anth415/assets/h_rudolphensis.png"
+                        data-title="Homo Rudolphensis"
+                        data-caption="Researches classify Homo Rudolphensis as a species that bears many similarities to Homo Naledis. One major difference, however, is frontal morphology. Homo Rudolphensis lacks frontal bossing (protruding forehead) and a supratoral sulcus (a groove near the brow ridges), which are present in Homo Naledi and these other hominin species."
+                    />
+                </div>
+                <h3 class="skull-title">Hominid Skulls</h3>
+                <p>
+                    <span class="skull-caption">Hover over a skull to learn how they compare to Homo Naledi!</span>
+                    <a class="source-link" href="/anth415/sources.html#hawks2017">[3]</a>
+                    <a class="source-link" href="/anth415/sources.html#stringer2015">[4]</a>
+                </p>
+            </section>
+
+
+            <section>
+                <h2>Bone Samples</h2>
+                <div class="float-left">
+                    <div class="gallery">
+                        <button class="gallery-left">
+                            <svg fill="#ffffff" stroke-width="0" viewBox="0 0 16 16" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"></path></svg>
+                        </button> 
+                        <img class="gallery-image" src="" alt="Image of the sample" draggable="false"/>
+                        <button class="gallery-right">
+                            <svg fill="#ffffff" stroke-width="0" viewBox="0 0 16 16" height="30px" width=30px" xmlns="http://www.w3.org/2000/svg"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"></path></svg>
+                        </button>
+                    </div>
+                    <p>
+                        <span class="gallery-caption">Loading...</span>
+                        <a class="source-link" href="/anth415/sources.html#berger2015">[1]</a>
+                    </p>
+                </div>
+                <p>
+                    Still in development!
+                </p>
+            </section>
+
+            <section>
+                <h2>Dating</h2>
+                <p>
+                    Still in development!
+                </p>
+            </section>
+
+            <section>
+                <h2>Mysteries</h2>
+                <p>
+                    Still in development!
+                </p>
+            </section>
+
+            <section>
+                <h2>Significance</h2>
+                <p>
+                    Still in development!
+                </p>
+            </section>
+
         </div>
+
     </body>
 </html>
