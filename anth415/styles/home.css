@@ -39,7 +39,7 @@
 }
 
 #home-page img {
-    max-height: 40rem;
+    max-height: 25rem;
     max-width: 25rem;
 }
 
@@ -100,8 +100,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 0 3rem;
-    padding: 1rem;
+    margin: 1.5rem 3rem;
 }
 
 #home-page .skull-comparison img {

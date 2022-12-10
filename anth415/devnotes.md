@@ -85,20 +85,27 @@ Homo naledi - relatively high and thin skull, small brain volume, flexed occipit
 - commentators writing on the discovery suggest radiocarbon dating or DNA samples might be possible (Stringer)
 
 > Mysteries
+
+Many explanations have been ruled out:
+- "alternative explanations, ranging from whether H. naledi occupied the caves to whether the bodies were left there by predators" (Stringer)
+
 - large number of fossils very close, with no large animal remains, and remains aren't damaged by predators or scavengers (Dirks)
 - How did they get there?
+
 - "living in the cave or being washed in by a flood were considered but ruled out" (Hawks 17)
 -  "the evidence is most consistent with the bodies arriving intact into the chamber, and there were no signs that the remains had been exposed to the surface environment." (Hawks et al 17)
+
 - "intentional disposal of the dead bodies is a surprisingly complex behaviour for a creature with a brain no bigger than that of H. habilis or a gorilla" (Stringer)
-- "alternative explanations, ranging from whether H. naledi occupied the caves to whether the bodies were left there by predators" (Stringer)
+
 - "represents a depositional scenario that deviates from all other hominin localities in the region" (Dirks)
 - "there is no indication of a direct vertical passageway to surface into the Dinaledi Chamber" (Dirks)
 - "There are no signals of occupation debris or evidence of occupation within the Dinaledi Chamber" (Dirks)
 - "Sedimentological evidence excludes the transport of coarse-grained material into the chamber by water action." (Dirks)
 - "if bodies were dropped down the entrance, it is unlikely that they would have fallen rapidly, or landed with any force; perhaps because the entry is too irregular and narrow to allow a body to freefall and gain speed, or perhaps because a pile of soft muddy sediment had accumulated below the entry way, breaking the momentum of any falling object" (Dirks)
 - quality of the bones suggest deliberate, careful burial as opposed to dropping bodies
-- "eliberate disposal of bodies in the Dinaledi Chamber implies that morphologically primitive hominins like H. naledi may have had their own distinctive patterns of behavioral complexity, even though the reason why H. naledi may have ventured deep into the cave system remains unresolved." (Dirks)
+- "deliberate disposal of bodies in the Dinaledi Chamber implies that morphologically primitive hominins like H. naledi may have had their own distinctive patterns of behavioral complexity, even though the reason why H. naledi may have ventured deep into the cave system remains unresolved." (Dirks)
 
+Some more issues:
 - problem: access to the chamber is so narrow it is limited to smaller bodied people (Val)
 - non-trivial maount of effore required to move the dead bodies to the cave chamber (Val) without causing trama to them
 - likely deposited over an extended period of time, if they were deposited (Val)
@@ -109,7 +116,7 @@ Homo naledi - relatively high and thin skull, small brain volume, flexed occipit
 - Interesting compare and contrast with other species of Homo
 - Lack of precise dating leaves a lot to be desired about this discovery
 - Still groundbreaking due to the quantity and quality of specimens uncovered
-- The mystery surrounding the results of the Homo Naledi expeditions, and the possibility of complex behavior like burials taking place, makes Homo Naledi a truly fascinating discover
+- The mystery surrounding the results of the Homo Naledi expeditions, and the possibility of complex behavior like burials taking place, makes Homo Naledi a truly fascinating discovery
 
 # Sources
 
