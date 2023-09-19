@@ -1,0 +1,86 @@
+{
+    "questions": {
+        "question1": {
+            "prompt": "What is the primary color of 'Zoobledorf'?",
+            "options": [
+                "Red",
+                "Orange",
+                "Green",
+                "Purple"
+            ]
+        },
+        "question2": {
+            "prompt": "How many 'Fluffernutters' are in a 'Gibberwobble'?",
+            "options": [
+                "Four",
+                "Seven",
+                "Ten",
+                "Three"
+            ]
+        },
+        "question3": {
+            "prompt": "Which 'Wibberwobble' is the smallest in size?",
+            "options": [
+                "Omega",
+                "Alpha",
+                "Prime",
+                "Sigma"
+            ]
+        },
+        "question4": {
+            "prompt": "What is the main ingredient in 'Dingledorf' soup?",
+            "options": [
+                "Ice Cream",
+                "Chocolate",
+                "Ginger Ale",
+                "Lemonade"
+            ]
+        },
+        "question5": {
+            "prompt": "Who is the legendary creator of the 'Blabberflapinator'?",
+            "options": [
+                "Albert Einstein",
+                "Isaac Newton",
+                "Marie Antoinette",
+                "Vincent van Gogh"
+            ]
+        },
+        "question6": {
+            "prompt": "Which animal is renowned for its 'Zoobledance'?",
+            "options": [
+                "Penguin",
+                "Fox",
+                "Koala",
+                "Lion"
+            ]
+        },
+        "question7": {
+            "prompt": "What is the national sport of 'Whimsyland'?",
+            "options": [
+                "Flower picking",
+                "Banana juggling",
+                "Cloud surfing",
+                "Turtle racing"
+            ]
+        },
+        "question8": {
+            "prompt": "What is the favorite food of the 'Gobblewunk'?",
+            "options": [
+                "Shoelaces",
+                "Rainbows",
+                "Hamburger",
+                "Sparkles"
+            ]
+        }
+    },
+    "answers": {
+        "question1": "Orange",
+        "question2": "Seven",
+        "question3": "Prime",
+        "question4": "Ice Cream",
+        "question5": "Vincent van Gogh",
+        "question6": "Fox",
+        "question7": "Turtle racing",
+        "question8": "Shoelaces"
+    }
+}
